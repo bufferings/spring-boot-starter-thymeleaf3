@@ -2,11 +2,58 @@
 
 This is a temporary library for using Thymeleaf3(3.0.0.RELEASE) with Spring Boot 1.3.5.RELEASE until official one is released.
 
+* property prefix is "spring.thymeleaf3".
+
 ## How to use
 
-property prefix is "spring.thymeleaf3".
+### 1 Modify pom.xml
 
-pom.xml
+1 Need to override `thymeleaf.version` of parent
+
+```xml
+    <thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
+```
+
+2 Add this repository
+
+```xml
+    <repository>
+      <id>bufferings</id>
+      <url>https://raw.github.com/bufferings/thymeleaf3-spring-boot/mvn-repo/</url>
+    </repository>
+```
+
+3 Add dependency
+
+```xml
+    <dependency>
+      <groupId>jp.gr.java_conf.bufferings</groupId>
+      <artifactId>thymeleaf3-spring-boot</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+```
+
+### 2 Exclude default ThymeleafAutoConfiguration
+
+```java
+@SpringBootApplication(exclude = ThymeleafAutoConfiguration.class)
+```
+
+## Samples
+
+### Application
+
+```java
+@SpringBootApplication(exclude = ThymeleafAutoConfiguration.class)
+public class DemoApplication {
+
+  public static void main(String[] args) {
+    SpringApplication.run(DemoApplication.class, args);
+  }
+}
+```
+
+### pom.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -69,3 +116,7 @@ pom.xml
 
 </project>
 ```
+
+## License
+
+[Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html)
