@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jp.gr.java_conf.bufferings</groupId>
+  <artifactId>thymeleaf3-spring-boot</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160514151220</lastUpdated>
+  </versioning>
+</metadata>
