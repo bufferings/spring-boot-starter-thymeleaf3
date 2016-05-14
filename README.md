@@ -80,7 +80,7 @@ public class DemoApplication {
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
 
-    <!-- For overwriting parent version -->
+    <!-- For overriding parent version -->
     <thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
   </properties>
 
