@@ -12,6 +12,8 @@ This is a temporary library until official release of it.
 * Property prefix
   * spring.thymeleaf3
 
+* Thymeleaf Layout Dialect is NOT supported
+
 ## How to use
 
 ### 1 Modify pom.xml
