@@ -7,7 +7,7 @@ This is a temporary library until official release of it.
 
 `0.0.1`
 
-## Spec
+## Supported libraries
 
 | Library           | Version         |
 | ----------------- |:---------------:|
