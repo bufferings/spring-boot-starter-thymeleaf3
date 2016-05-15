@@ -9,13 +9,13 @@ This is a temporary library until official release of it.
 
 ## Spec
 
-* Versions
-  * Thymeleaf 3.0.0.RELEASE
-  * Thymeleaf Spring4 3.0.0.RELEASE
-  * Spring Boot 1.3.5.RELEASE
-* Property prefix
-  * spring.thymeleaf3
+| Library           | Version         |
+| ----------------- |:---------------:|
+| Thymeleaf         | 3.0.0.RELEASE   |
+| Thymeleaf Spring4 | 3.0.0.RELEASE   |
+| Spring Boot       | 1.3.5.RELEASE   |
 
+* Property prefix is "spring.thymeleaf3"
 * Thymeleaf Layout Dialect is NOT supported
 
 ## How to use
