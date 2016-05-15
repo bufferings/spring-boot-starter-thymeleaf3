@@ -3,6 +3,10 @@
 A library for using Thymeleaf 3 with Spring Boot.
 This is a temporary library until official release of it.
 
+## Current Version
+
+`0.0.1`
+
 ## Spec
 
 * Versions
@@ -39,7 +43,7 @@ This is a temporary library until official release of it.
     <dependency>
       <groupId>jp.gr.java_conf.bufferings</groupId>
       <artifactId>thymeleaf3-spring-boot</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1</version>
     </dependency>
 ```
 
@@ -98,7 +102,7 @@ public class DemoApplication {
     <dependency>
       <groupId>jp.gr.java_conf.bufferings</groupId>
       <artifactId>thymeleaf3-spring-boot</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1</version>
     </dependency>
 
     <dependency>
