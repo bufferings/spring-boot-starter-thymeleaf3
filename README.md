@@ -1,8 +1,16 @@
-# thymeleaf3-spring-boot
+# Thymeleaf 3 Spring Boot
 
-This is a temporary library for using Thymeleaf3(3.0.0.RELEASE) with Spring Boot 1.3.5.RELEASE until official one is released.
+A library for using Thymeleaf 3 with Spring Boot.
+This is a temporary library until official release of it.
 
-* property prefix is "spring.thymeleaf3".
+## Spec
+
+* Versions
+  * Thymeleaf 3.0.0.RELEASE
+  * Thymeleaf Spring4 3.0.0.RELEASE
+  * Spring Boot 1.3.5.RELEASE
+* Property prefix
+  * spring.thymeleaf3
 
 ## How to use
 
